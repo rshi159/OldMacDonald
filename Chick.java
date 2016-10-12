@@ -11,11 +11,11 @@ class Chick implements Animal
     	myType = "Chick: "
     	mySound = "Cheep!"
 
-	Public String getSound()
+	public String getSound()
 	{
 		return mySound;
 	}
-	Public String getType()
+	public String getType()
 	{
 		return myType;
 	}

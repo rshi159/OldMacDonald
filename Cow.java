@@ -10,12 +10,13 @@ class Cow implements Animal
     public Cow()
     	myType = "Cow: "
     	mySound = "Moo!"
-}
-Public String getSound()
-{
-	return mySound;
-}
-Public String getType()
-{
-	return myType;
+
+	public String getSound()
+	{
+		return mySound;
+	}
+	public String getType()
+	{
+		return myType;
+	}
 }
